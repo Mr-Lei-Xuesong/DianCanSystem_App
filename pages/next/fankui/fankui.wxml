@@ -1,0 +1,4 @@
+<!--pages/next/fankui/fankui.wxml-->
+<view class="shuju">
+  <text>此服务暂时没有开发</text>
+</view>

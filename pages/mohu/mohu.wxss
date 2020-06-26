@@ -1,0 +1,69 @@
+.box {
+  width: 100%;
+  height: 300rpx;
+  display: flex;
+  justify-content: space-around;
+  padding: 10rpx;
+  border: 1px solid #62DBBE;
+  margin-top: 30rpx;
+}
+.box > .box-left {
+  width: 30%;
+  height: 100%;
+}
+.box-left > image {
+  width: 100%;
+  height: 60%;
+}
+.box > .box-right {
+  width: 65%;
+  height: 100%;
+
+}
+.box-right > .right-a {
+  font-size: 38rpx;
+}
+.box-right > .right-b {
+  margin-top: 12rpx;
+  font-size: 26rpx;
+}
+.right-b > .b-a {
+  background-color: skyblue;
+  color: white;
+  border: 1px solid skyblue;
+}
+.right-b > .b-b {
+  border: 1px solid skyblue;
+  color: skyblue;
+}
+.box-right > .right-c {
+  display: flex;
+  align-items: center;
+  margin-top: 12rpx;
+  font-size: 26rpx;
+}
+.right-c > image {
+  width: 25rpx;
+  height: 25rpx;
+}
+.box-right > .right-d {
+  margin-top: 12rpx;
+  font-size: 26rpx;
+}
+.box-right > .right-e {
+  width: 300rpx;
+  margin-top: 12rpx;
+  font-size: 26rpx;
+  background-color: rgb(233, 188, 188);
+  color: rgb(232, 85, 85);
+  border-radius: 5rpx;
+}
+.box-right > .right-f {
+  margin-top: 12rpx;
+  font-size: 26rpx;
+}
+.right-f > text {
+  border: 1px solid rgb(232, 124, 124) ;
+  margin-right: 20rpx;
+  color: rgb(232, 85, 85);
+}

@@ -1,0 +1,54 @@
+{
+  "pages":[
+    "pages/login/login", 
+    "pages/dinwei/dinwei",
+    "pages/home/home",
+    "pages/diancan/diancan",
+    "pages/dingdan/dingdan",
+    "pages/mohu/mohu",
+    "pages/next/dizhi/dizhi",
+    "pages/next/pingjia/pingjia",
+    "pages/next/kefu/kefu",
+    "pages/next/fankui/fankui",
+    "pages/serch/serch",
+
+    "pages/user/user",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示" 
+    }
+  },
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#62DBBE",
+    "navigationBarTitleText": "四组点餐",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [
+      {
+      "pagePath": "pages/home/home",
+      "text": "首页",
+      "iconPath": "/images/首页1.png",
+      "selectedIconPath": "/images/首页.png"
+    },
+    {
+      "pagePath": "pages/dingdan/dingdan",
+      "text": "订单",
+      "iconPath": "/images/订单.png",
+      "selectedIconPath": "/images/订单1.png"
+    },
+    {
+      "pagePath": "pages/user/user",
+      "text": "个人",
+      "iconPath": "/images/个人2.png",
+      "selectedIconPath": "/images/个人.png"
+    }
+  ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,28 @@
+<view class="box" wx:for="{{businfo}}">
+    <view class="box-top">
+      <image src="/images/外卖.png"></image>
+      <text>{{item.sname}}</text>
+      <image src="/images//右箭头.png"></image>
+    </view>
+    <view class="box-mid">
+      <view class="mid-left">
+        <image src="{{item.spic}}"></image>
+      </view>
+      <view class="mid-right">
+        <view class="right-a">
+            <text>下单时间:{{date}}</text>
+        </view>
+        <view class="right-b">
+            <text>总价:¥{{moenySum}}</text>
+        </view>
+      </view>
+    </view>
+    <view class="box-bottom">
+     <text>已结算</text>
+    </view>
+</view>
+
+<view class="huanying">
+  <image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1592800868824&di=9c184b40b5d25a5561b83fb90a8629f0&imgtype=0&src=http%3A%2F%2Fhbimg.b0.upaiyun.com%2Ff9e1165bf73e53e4fbb6abf3e5f53349382326c29434-j0LbKV_fw658"></image>
+  <text>欢迎老板点餐</text>
+</view>

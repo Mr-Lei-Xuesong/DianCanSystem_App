@@ -1,0 +1,4 @@
+<!--pages/next/pingjia/pingjia.wxml-->
+<view class="shuju">
+  <text>{{pingjia}}</text>
+</view>

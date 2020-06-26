@@ -1,0 +1,79 @@
+<!-- 顶部搜索框 -->
+<view class="serch">
+  <view class="serch-top">
+    <view class="top-left" bindtap="godinwei">
+          <text >遂宁</text>
+          <image src="/images/下  拉.png"></image>
+          <text class="texttow">中雨21℃</text>
+    </view>
+    <view class="top-mid">
+      <image src="/images/搜索--1.png"></image>
+      <input class="inp" bindtap="serch" type="text" placeholder="书亦烧仙草（川教店）"></input>
+    </view>
+    <view class="top-right">
+      <image bindtap="hid"  src="/images/添加图标 (1).png"></image>
+    </view>
+  </view>
+  <view class="hidden" style="display:{{display}}">
+      <text bindtap="golist">我要点餐</text>
+      <text bindtap="sao">扫码点餐</text>
+      <text bindtap="godingdan">订单中心</text>
+  </view>
+    <view class="tuijian">
+        <text>热搜:</text>
+        <text bindtap="govalue" data-value="田园菜馆">田园菜馆</text>
+        <text bindtap="govalue" data-value="水果">水果</text>
+        <text bindtap="govalue" data-value="夏日饮品">夏日饮品</text>
+        <text bindtap="govalue" data-value="限时秒杀">限时秒杀</text>
+        <text bindtap="govalue" data-value="车厘子">车厘子</text>
+    </view>
+
+  <!-- 操作按钮 -->
+  <view class='btn-bar'>
+    <view class='btn-block' bindtap='golist'>
+      <image src="/images/点餐.png"></image>
+      <text>我要点餐</text>
+    </view>
+    <view class='btn-block' bindtap='goreserve'>
+      <image bindtap="sao" src="/images/扫一扫.png"></image>
+      <text>扫码点餐</text>
+    </view>
+  </view>
+</view>
+  
+<!--广告栏-->
+<swiper autoplay="true" indicator-dots="true" indicator-color="#62DBBE" indicator-active-color="#fff">
+  <swiper-item wx:for="{{banner}}">
+    <view>
+      <image src="{{item}}"></image>
+    </view>
+  </swiper-item>
+</swiper>
+
+<view class="shangjia">
+  <view class="shangjia-item" wx:for="{{info}}">
+    <view class="a" >
+      <image src="{{item.spic}}" data-name="{{item.sname}}" bindtap="diancan"></image>
+    </view>
+    <view class="b">
+      <text bindtap="diancan"  data-name="{{item.sname}}">{{item.sname}}</text>
+    </view>
+    <view class="c">
+      <text class="c-item">{{item.sping}}</text>
+      <text>{{item.sdes}}</text>
+    </view>
+    <view class="d">
+      <text class="d-item">20减1</text>
+      <text class="d-item">40减2</text>
+      <text class="d-item">首单减5</text>
+    </view>
+    <view class="e">
+      <text>月销:{{item.sxiao}}</text>
+    </view>
+  </view>
+</view>
+
+
+
+
+

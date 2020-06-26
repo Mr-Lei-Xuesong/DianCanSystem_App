@@ -1,0 +1,87 @@
+<view class="top-img">
+    <image src="https://img.meituan.net/msmerchant/4a953fe54ad2c3cef9547fc41ba8df9193526.jpg@380w_214h_1e_1c"></image>
+</view>
+
+<view class="top" wx:for="{{businfo}}">
+  <view class="top-a">
+    <text>{{item.sname}}</text>
+  </view>
+  <view class="top-b">
+    <view class="b-a">
+      <image src="/images/时间.png"></image>
+      <text>配送约34分钟</text>
+    </view>
+    <view class="b-b">
+      <image src="/images/爱心.png"></image>
+      <text>放心吃</text>
+    </view>
+    <view class="b-c">
+      <image src="/images/极速.png"></image>
+      <text>极速退款</text>
+    </view>
+  </view>
+  <view class="top-c">
+    <text>0.33折起</text>
+    <text>首单减5</text>
+  </view>
+  <view class="top-d">
+    <text>{{item.sdes}}</text>
+  </view>
+</view>
+
+<!-- 点餐信息 -->
+
+<view class="box">
+  <view class="box-left">
+      <view class="box-left-a" >
+        <text>进店必买</text>
+        <text>今日推荐</text>
+        <text>今日热搜</text>
+        <text>今日秒杀</text>
+      </view>
+  </view>
+  <scroll-view scroll-y="true" class="box-right" wx:for="{{businfo}}">
+      <view class="box-right-a" wx:for="{{item.wupins}}">
+        <view class="a-left">
+          <image src="{{item.pic}}"></image>
+        </view>
+        <view class="a-right">
+          <view class="a-a">
+            <text>{{item.name}}</text>
+          </view>
+          <view class="a-b">
+            <text>{{item.des}}</text>
+          </view>
+          <view class="a-c">
+            <text>数量:{{item.num}}</text>
+            <text>好评度86%</text>
+          </view>
+          <view class="a-d">
+            <text>{{item.price}}</text>
+            <image src="/images/添加 (1).png" bindtap="getMoney" data-money="{{item.price}}"></image>
+          </view>
+        </view>
+      </view>
+  </scroll-view>
+</view>
+
+
+<!-- 价格区 -->
+<view class="price">
+  <view class="price-left">
+      <image src="/images/联系商家.png"></image>
+      <text>联系商家</text>
+  </view>
+  <view class="price-right">
+      <view class="right-left">
+        <image src="/images/骑手.png"></image>
+      </view>
+      <view class="right-mid">
+        <text>¥{{moneySum}}</text>
+        <text>免费配送     支持自取</text>
+      </view>
+      <view class="right-right">
+        <text class="btn" bindtap="godingdan">支付</text>
+      </view>
+  </view>
+</view>

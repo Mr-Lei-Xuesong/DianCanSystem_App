@@ -1,0 +1,5 @@
+<!--pages/next/dizhi/dizhi.wxml-->
+<view class="shuju">
+  <text>{{dizhi}}</text>
+</view>
+

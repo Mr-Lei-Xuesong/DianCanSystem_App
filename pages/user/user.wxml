@@ -1,0 +1,30 @@
+<!--pages/user/user.wxml-->
+<view class='top'>
+  <image src=''></image>
+  <view class='mid'>
+    <image src='/images/评分.png'></image>
+    <text>{{username}}</text>
+  </view>
+</view>
+<view class='max'>
+  <view class='all'>
+
+    <view class='content'>
+      <image src='/images/weizhi.png'></image>
+      <text bindtap='todizhi'>我的地址</text>
+    </view>
+    <view class='content'>
+      <image src='/images/pingjia.png'></image>
+      <text bindtap='topingjia'>我的评价</text>
+    </view>
+    <view class='content'>
+      <image src='/images/kefu.png'></image>
+      <text bindtap='tokefu'>联系客服</text>
+    </view>
+    <view class='content'>
+      <image src='/images/shezhi.jpg'></image>
+      <text bindtap='tofankui'>反馈和帮助</text>
+    </view>
+
+  </view>
+</view>

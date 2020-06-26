@@ -1,0 +1,4 @@
+<!--pages/next/kefu/kefu.wxml-->
+<view class="shuju">
+  <text>联系四组全组人员</text>
+</view>

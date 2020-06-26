@@ -1,0 +1,38 @@
+<view class="box">
+  <view class="box-left">
+      <image bindtap="zuo" src="/images/左箭头.png"></image>
+  </view>
+  <view class="box-mid">
+      <input type="text"  bindinput="value"  value="{{wupinname}}" placeholder="请输入商家名:"></input>
+  </view>
+  <view class="box-right">
+      <text  bindtap="serch" data-name="{{wupinname}}" >搜索</text>
+  </view>
+</view>
+
+<view class="mid">
+    <view class="mid-left">
+     <text>想配送上门，可先选地址</text>
+    </view>
+    <image src="/images/地址.png" class="mid-img"></image>
+    <button bindtap="dinwei" class="btn">{{dizhi}}</button>
+    <image src="/images/下箭头.png" class="mid-img-tow"></image>
+</view>
+
+<view class="hot">
+    <button bindtap="hot" data-value="书亦烧仙草" class="btn">书亦烧仙草</button>
+    <button bindtap="hot" data-value="妈妈乡冒菜" class="btn">妈妈乡冒菜</button>
+    <button bindtap="hot" data-value="正新鸡排" class="btn">正新鸡排</button>
+    <button bindtap="hot" data-value="古茗奶茶" class="btn">古茗奶茶</button>
+    <button bindtap="hot" data-value="1号炒饭" class="btn">1号炒饭</button>
+    <button bindtap="hot" data-value="川教烧烤" class="btn">川教烧烤</button>
+</view>
+
+<view class="bottom">
+    <image src="http://s0.meituan.net/bs/file/?f=fe-sso-fs:build/page/static/banner/www.jpg"></image>
+</view>
+
+<view class="bot">
+    <image src="/images/绿植20.png"></image>
+    <text>四组点餐欢迎你</text>
+</view>

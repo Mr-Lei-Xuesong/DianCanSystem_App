@@ -1,0 +1,6 @@
+/* pages/next/pingjia/pingjia.wxss */
+.shuju{
+  width: 100%;
+  height: 80rpx;
+  background-color: #62DBBE;
+}

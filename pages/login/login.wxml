@@ -1,0 +1,40 @@
+<view class="top">
+  <image src="/images/top.jpg"></image>
+</view>
+<view class="water">
+  <view class="water-c">
+    <view class="water-1"> </view>
+    <view class="water-2"> </view>
+  </view>
+</view>
+
+<view class="content">
+    <text>登录</text>
+    <view class="login">
+        <view class="login-item">
+          <image src="/images/猕猴桃.png"></image>
+          <input class="inputText"  type="text" placeholder="账号是admin" bindinput="usernameInput"></input>
+        </view>
+        <view class="login-item">
+          <image src="/images/西瓜.png"></image>
+          <input class="inputText" password="true" type="password" placeholder="密码是123456" bindinput="passwordInput"></input>
+        </view>
+        <view class="login-btn">
+          <button class="loginBtn"  bindtap="login">登录</button>
+        </view>
+    </view>
+      <checkbox-group class="content-bottom"  bindchange="niming">
+      <checkbox value="1"></checkbox>
+      <text>登录即表示同意并遵守</text>
+      <text class="texttow">《用户注册协议》</text>
+      </checkbox-group>
+</view>
+
+
+
+
+
+<view class="bottom">
+  <image src="/images/绿植4.png"></image>
+  <text>欢迎来到微信点餐</text>
+</view>

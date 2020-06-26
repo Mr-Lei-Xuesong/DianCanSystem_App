@@ -1,0 +1,19 @@
+.map_container{
+  height: 450px;
+  width: 100%;
+}
+
+.map {
+  height: 100%;
+  width: 100%;
+}
+
+.place_info {
+  padding: 0 5px;
+}
+.aaa {
+  width: 30rpx;
+  height: 80rpx;
+  background-color: rgb(128, 123, 123);
+  margin-top: 100rpx;
+}

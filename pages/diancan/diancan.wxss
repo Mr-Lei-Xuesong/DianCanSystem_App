@@ -1,0 +1,278 @@
+.top-img{
+  width: 100%;
+  height: 300rpx;
+}
+.top-img > image {
+  width: 100%;
+  height: 100%;
+}
+.noclick{
+  background:#f9f9f9;
+  color:#333333;
+}
+.top {
+  position: absolute;
+  top: 170rpx;
+  left: 2%;
+  width: 85%;
+  height: 200rpx;
+  background-color: white;
+  border-radius: 40rpx;
+  padding: 40rpx;
+  box-shadow: 0px 0px 8px #c2c1c1 ;
+}
+.top > .top-a {
+  font-size: 40rpx;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+.top > .top-b {
+  width: 100%;
+  height: 40rpx;
+  font-size: 24rpx;
+  line-height: 40rpx;
+  display: flex;
+  margin-top: 15rpx;
+}
+.top-b  > .b-a {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.top-b > .b-a > image {
+  width: 25rpx;
+  height: 25rpx;
+  margin-right: 15rpx;
+}
+.top-b  > .b-b {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.top-b > .b-b > image {
+  width: 25rpx;
+  height: 25rpx;
+  margin-right: 15rpx;
+}
+.top-b  > .b-c {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.top-b > .b-c > image {
+  width: 25rpx;
+  height: 25rpx;
+  margin-right: 15rpx;
+}
+.top > .top-c {
+  font-size: 24rpx;
+  margin-top: 15rpx;
+}
+.top-c > text {
+  border: 1px solid rgb(226, 207, 207);
+  margin-right: 15rpx;
+  color: rgb(226, 85, 85);
+}
+.top > .top-d {
+  margin-top: 20rpx;
+  font-size: 26rpx;
+  color: rgb(75, 71, 71);
+}
+
+/* tab选项卡 */
+
+.max {
+  width: 100%;
+  height: 800rpx;
+  margin-top: 200rpx;
+  background-color: red;
+}
+.max > .max-a{
+  width: 30%;
+  height: 500rpx;
+  background-color: blue;
+}
+.max-a > .aa {
+  width: 100%;
+  height: 100rpx;
+  background-color: blueviolet;
+}
+
+/* 点餐信息 */
+.box {
+  width: 100%;
+  height: 1000rpx;
+  margin-top: 200rpx;
+  display: flex;
+}
+.box > .box-left {
+  width: 180rpx;
+  height: 100%;
+  overflow: hidden;
+}
+.box-left > .box-left-a {
+  width: 100%;
+  height: 100rpx;
+  background-color: rgba(235, 227, 227, 0.94);
+  display: flex;
+  flex-direction: column;
+  padding-left: 20rpx;
+  line-height: 100rpx;
+}
+.box > .box-right {
+  margin-left: 20rpx;
+    width: 570rpx;
+    height: 700rpx;
+}
+.box-right-a {
+  width: 100%;
+  height: 300rpx;
+  display: flex;
+}
+.a-left {
+    width: 40%;
+    height: 80%;
+}
+.a-left > image {
+  width: 100%;
+  height: 100%;
+  border-radius: 20rpx;
+}
+.a-right {
+  width: 60%;
+  height: 100%;
+}
+.a-a {
+  font-size: 40rpx;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  padding: 10rpx;
+}
+.a-b {
+  font-size: 30rpx;
+  padding: 10rpx;
+  margin-top: 5rpx;
+}
+.a-b > text {
+  background-color: rgb(238, 230, 230);
+  margin-right: 20rpx;
+  border-radius: 5rpx;
+}
+.a-c {
+  font-size: 30rpx;
+  color:rgb(163, 157, 157) ;
+  margin-top: 5rpx;
+  padding: 10rpx;
+  margin-right: 10rpx;
+}
+.a-c > text {
+  margin-right: 10rpx;
+}
+.a-d {
+  font-size: 40rpx;
+  padding: 10rpx;
+  margin-top: 25rpx;
+  color: red;
+  display: flex;
+  justify-content: space-around;
+}
+.a-d > image {
+  width: 45rpx;
+  height: 45rpx;
+  margin-left: 160rpx;
+}
+
+/* 价格区 */
+.price {
+  position: absolute;
+  bottom: 20rpx;
+  left: 3%;
+  width: 94%;
+  height: 150rpx;
+  z-index: 999;
+  background-color: black;
+  border-radius: 350rpx;
+  display: flex;
+}
+.price-left {
+  width: 25%;
+  height: 100%;
+  border-radius: 350rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(242, 230, 60);
+  font-size: 28rpx;
+
+}
+.price-left > image {
+  width: 35%;
+  height: 35%;
+}
+.price-right {
+  width: 75%;
+  height: 100%;
+  border-radius: 350rpx;
+  display: flex;
+  position: relative;
+}
+.right-left {
+  width: 15%;
+  height: 100%;
+  margin-right: 45rpx;
+  border-left: 2px solid #f9f9f9;
+}
+.right-left > image {
+  position: absolute;
+  top: -60rpx;
+  left: -10rpx;
+  width: 150rpx;
+  height: 156rpx;
+
+}
+.right-mid {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.right-mid > text:first-child {
+  font-size: 49rpx;
+  color: white;
+  margin-top: 25rpx;
+}
+.right-mid > text:last-child {
+  font-size: 28rpx;
+  color: rgb(118, 115, 115);
+  margin-top: 0rpx;
+}
+.right-right {
+  width: 140rpx;
+  height: 10rpx;
+  color: rgb(118, 115, 115);
+  margin-top: 40rpx;
+  margin-right: 30rpx;
+}
+.right-right > .btn {
+  width: 100%;
+  height: 80rpx;
+  background-color: rgb(242, 230, 60);
+  font-size: 35rpx;
+  border-radius: 30rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+}
+
+
+
+
